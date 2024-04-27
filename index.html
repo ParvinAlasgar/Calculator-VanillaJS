@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Main JS -->
+    <script src="./assets/js/script.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section id="calculator" class="bg-white">
+      <div class="container">
+        <div class="app">
+          <div class="screen bg-dark p-3 text-end rounded-3 opacity-50 mb-2">
+            <span class="text-white result">0</span>
+          </div>
+          <div class="inputs column-gap-2 d-flex">
+            <input class="num1 form-control w-50 mb-2" type="text" />
+            <input class="num2 form-control w-50 mb-2" type="text" />
+          </div>
+          <button class="addition w-100 btn btn-primary mb-2">Addition +</button>
+          <button class="subtraction w-100 btn btn-primary mb-2">
+            Subtraction -
+          </button>
+          <button class="multiplication w-100 btn btn-primary mb-2">
+            Multiplication *
+          </button>
+          <button class="division w-100 btn btn-primary">Division /</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
